@@ -28,6 +28,13 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="libs" />
+    <Folder Include="libs\jquery" />
+    <Folder Include="libs\jquery\js" />
+    <Folder Include="templates" />
+    <Folder Include="templates\header" />
+    <Folder Include="templates\footer" />
+    <Folder Include="templates\views" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -52,14 +59,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="kendo\js\jquery.min.js" />
-    <Content Include="kendo\js\kendo.mobile.min.js" />
-    <Content Include="kendo\styles\images\ios-sprite.png" />
-    <Content Include="kendo\styles\images\icons.png" />
-    <Content Include="kendo\styles\images\iconmasks.svg" />
-    <Content Include="kendo\styles\images\android-sprite.png" />
-    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="libs\jquery\js\jquery.min.js" />
+    <Content Include="libs\kendo\js\kendo.mobile.min.js" />
+    <Content Include="libs\kendo\styles\images\ios-sprite.png" />
+    <Content Include="libs\kendo\styles\images\icons.png" />
+    <Content Include="libs\kendo\styles\images\iconmasks.svg" />
+    <Content Include="libs\kendo\styles\images\android-sprite.png" />
+    <Content Include="libs\kendo\styles\kendo.mobile.all.min.css" />
     <Content Include="scripts\hello-world.js" />
+    <Content Include="styles\Copy of main.css" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
@@ -69,6 +77,7 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="templates\views\tabstrip_home" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>

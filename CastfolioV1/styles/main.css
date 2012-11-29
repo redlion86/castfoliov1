@@ -1,26 +1,36 @@
-body
-{
+body{
     font: Arial, sans-serif;
 }
 
-.buttonArea,
-.footerText,
-#geoLocationContainer,
-#helloWorldInput,
-#helloWorldText
-{
-    text-align: center;
+.header-title {
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
-#txtName
-{
-    border: 1px solid #AAA;
-    border-radius: 15px;
-    position:static;
-    margin-left: 1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-    background:white;
-    color: black;
-    padding: 7px;
+.search-button .km-search {
+    font-size: 1em;
+    background-color: currentcolor;
+    margin: -0.4em -0.5em !important;
+}
+
+.search-button {
+    width: 0.6em;
+    height: 0.8em;
+    float: right;
+    display: block;
+    margin-top: -0.1em !important;;
+}
+
+.km-navbar { 
+    background: #dadada !important; /* Old browsers */
+    background: -moz-linear-gradient(top,  #dadada 0%, #a39090 50%, #947c7c 51%, #693333 100%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dadada), color-stop(50%,#a39090), color-stop(51%,#947c7c), color-stop(100%,#693333)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #dadada 0%,#a39090 50%,#947c7c 51%,#693333 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #dadada 0%,#a39090 50%,#947c7c 51%,#693333 100%) !important; /* Opera 11.10+ */
+    background: linear-gradient(to bottom,  #dadada 0%,#a39090 50%,#947c7c 51%,#693333 100%) !important; /* W3C */
+}
+
+.km-view-title {
+    color: #FFF !important;
+    text-shadow: 0px -1px #666 !important;
 }
